@@ -24,6 +24,14 @@ public class Main {
                 case 1:
                     System.out.println(koreanFoodList[rand.nextInt(7)]);
                     break;
+                case 2:
+                    System.out.println(japaneseFoodList[rand.nextInt(7)]);
+                    break;
+                case 5:
+                    whileFlag = false;
+                    break;
+                default:
+                    System.out.println("Invalid choice, please try again.");
             }
         }
     }
