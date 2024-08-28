@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        int userChoice = 0;
+        int userChoice;
         boolean whileFlag = true;
         String[] koreanFoodList = {"Bibimbap", "Doenjang Jjigae", "Kimbap", "Tteokbokki", "Korean-Style Bacon", "Naengmyeon ", "porridge"};
         String[] japaneseFoodList = {"Sushi", "Ramen", "Tempura", "Wagyu", "Udon", "Gyoza ", "Takoyaki"};
